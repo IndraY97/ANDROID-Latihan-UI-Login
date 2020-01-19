@@ -6,6 +6,34 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:text="Ini adalah apps latihan indra, merupakan tempat belajar pemrograman Android (Android
+Studio, React Native, Kotlin ) dan Web Development. Selain itu terdapat juga tips dan inspirasi
+yang menarik seputar dunia pemrograman. "/>
+
+
+    </LinearLayout>
+
+
+
 
 
 </LinearLayout>
