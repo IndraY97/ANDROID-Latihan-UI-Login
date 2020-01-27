@@ -41,14 +41,16 @@ yang menarik seputar dunia pemrograman. "/>
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="Selengkapnya"
-                android:textColor="#fff"/>
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyle2"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="Gabung sekarang"
-                android:textColor="#fff"/>
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyle"/>
 
         </LinearLayout>
 
