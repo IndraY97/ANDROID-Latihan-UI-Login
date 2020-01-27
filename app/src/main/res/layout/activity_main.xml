@@ -54,8 +54,36 @@ yang menarik seputar dunia pemrograman. "/>
 
         </LinearLayout>
 
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            android:drawablePadding="10dp"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:drawablePadding="10dp"/>
+        <Button
+            android:layout_marginTop="45dp"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="#fff"
+            android:background="@drawable/buttonstyle2" />
 
     </LinearLayout>
+
 
 
 
